@@ -24,7 +24,7 @@ body{
 
 ::selection{
     color: #fff;
-    background: #33ff33;
+    background: #ff3385;
 }
 
 .start_btn,
@@ -57,7 +57,7 @@ body{
 .start_btn button{
     font-size: 25px;
     font-weight: 500;
-    color: #33ff33;
+    color: #ff3381;
     padding: 15px 30px;
     outline: none;
     border: none;
@@ -99,7 +99,7 @@ body{
 
 .info_box .info-list .info span{
     font-weight: 600;
-    color: #33ff33;
+    color: #ff3385;
 }
 .info_box .buttons{
     height: 60px;
@@ -120,7 +120,7 @@ body{
     border: none;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #33ff33;
+    border: 1px solid #ff3385;
     transition: all 0.3s ease;
 }
 
@@ -154,8 +154,8 @@ body{
 
 .quiz_box header .timer{
     color: #000000;
-    background: #b3ffb3;
-    border: 1px solid #80ff80;
+    background: #ffb3cc;
+    border: 1px solid #ff80b3;
     height: 45px;
     padding: 0 8px;
     border-radius: 5px;
@@ -180,8 +180,8 @@ body{
     border-radius: 5px;
     line-height: 30px;
     text-align: center;
-    background: #80ffcc;
-    border: 1px solid #00ff99;
+    background: #ff80a2;
+    border: 1px solid #ff0055;
     user-select: none;
 }
 
@@ -190,7 +190,7 @@ body{
     bottom: 0px;
     left: 0px;
     height: 3px;
-    background: #00ff99;
+    background: #ff0055;
 }
 
 section{
@@ -209,8 +209,8 @@ section .option_list{
 }
 
 section .option_list .option{
-    background: #00e68a;
-    border: 1px solid #00ff99;
+    background: #e60068;
+    border: 1px solid #ff0055;
     border-radius: 5px;
     padding: 8px 15px;
     font-size: 17px;
@@ -227,14 +227,14 @@ section .option_list .option:last-child{
 }
 
 section .option_list .option:hover{
-    color: #009900;
-    background: #99ff99;
-    border: 1px solid #008000;
+    color: #99004a;
+    background: #ff99ad;
+    border: 1px solid #80003c;
 }
 
 section .option_list .option.correct{
-    color: #155724;
-    background: #d4edda;
+    color: #57152a;
+    background: #41c660;
     border: 1px solid #c3e6cb;
 }
 
@@ -260,8 +260,8 @@ section .option_list .option .icon{
     line-height: 24px;
 }
 .option_list .option .icon.tick{
-    color: #23903c;
-    border-color: #23903c;
+    color: #90234d;
+    border-color: #902347;
     background: #d4edda;
 }
 
@@ -304,8 +304,8 @@ footer button{
     outline: none;
     color: #fff;
     border-radius: 5px;
-    background: #00cc00;
-    border: 1px solid #009933;
+    background: #cc003d;
+    border: 1px solid #99003d;
     line-height: 10px;
     opacity: 0;
     pointer-events: none;
@@ -314,7 +314,7 @@ footer button{
 }
 
 footer button:hover{
-    background: #00b33c;
+    background: #b30054;
 }
 
 footer button.show{
@@ -340,7 +340,7 @@ footer button.show{
 
 .result_box .icon{
     font-size: 100px;
-    color: #00ff99;
+    color: #ff0055;
     margin-bottom: 10px;
 }
 
@@ -376,25 +376,25 @@ footer button.show{
     border: none;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #009933;
+    border: 1px solid  #99003d;
     transition: all 0.3s ease;
 }
 
 .buttons button.restart{
     color: #fff;
-    background: #1aff66;
+    background: #ff1a5f;
 }
 
 .buttons button.restart:hover{
-    background: #00b33c;
+    background: #b30054;
 }
 
 .buttons button.quit{
-    color: #1aff66;
+    color: #ff1a5f;
     background: #fff;
 }
 
 .buttons button.quit:hover{
     color: #fff;
-    background: #00b33c;
+    background: #b30054;
 }
