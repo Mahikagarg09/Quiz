@@ -129,13 +129,20 @@ body{
 }
 
 .quiz_box{
-    width: 550px;
+    /* width: 550px; */
+    width:80%;
     background: #fff;
     border-radius: 5px;
-    transform: translate(-50%, -50%) scale(0.9);
+    left:50%;
+    transform: translate(-50%) scale(0.9);
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s ease;
+}
+@media only screen and (max-width: 550px) {
+    .info-box,.quiz_box {
+        width: 90%;
+    }
 }
 
 .quiz_box header{
@@ -237,7 +244,7 @@ section .option_list .option:hover{
 }
 
 section .option_list .option.correct{
-    color: #57152a;
+    color: #053512;
     background: #41c660;
     border: 1px solid #c3e6cb;
 }
@@ -264,8 +271,8 @@ section .option_list .option .icon{
     line-height: 24px;
 }
 .option_list .option .icon.tick{
-    color: #90234d;
-    border-color: #902347;
+    color: #239044;
+    border-color: #066b3a;
     background: #d4edda;
 }
 
