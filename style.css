@@ -27,7 +27,7 @@ body{
     font-weight: 600;
     color: #1c3a7b;
     text-align: center;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 ::selection{
@@ -47,7 +47,7 @@ body{
 
 .quiz_box{
     position: relative;
-    top: 330px;
+    top: 320px;
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
@@ -424,6 +424,8 @@ footer button.show{
 @media only screen and (max-width: 550px) {
     .info_box,.quiz_box.activeQuiz,.result_box {
         width: 90vw;
+    }
+    .info_box,.quiz_box.activeQuiz{
         margin-bottom: 20vw;
     }
 }
@@ -432,3 +434,15 @@ footer button.show{
         margin-left: 10px;
     }
 }
+
+@media only screen and (min-width: 768px) {
+    .heading{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .heading{
+        font-size: 20px;
+    }
+}
+
