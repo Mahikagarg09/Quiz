@@ -149,7 +149,6 @@ body{
     border-radius: 5px;
     left:50%;
     /* transform: translate(-50%) scale(0.9); */
-    margin-bottom: 100px;
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s ease;
@@ -428,6 +427,9 @@ footer button.show{
     .info_box,.quiz_box.activeQuiz{
         margin-bottom: 20vw;
     }
+    .result_box.activeResult{
+        margin-top: 80px;
+    }
 }
 @media only screen and (max-width: 390px) {
     .main-page{
@@ -445,4 +447,3 @@ footer button.show{
         font-size: 20px;
     }
 }
-
