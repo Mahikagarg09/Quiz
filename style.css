@@ -36,7 +36,6 @@ body{
 }
 
 .start_btn,
-.info_box,
 .result_box{
     position: absolute;
     top: 55%;
@@ -45,6 +44,7 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
                 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .quiz_box{
     position: relative;
     top: 330px;
@@ -52,7 +52,6 @@ body{
     transform: translate(-50%, -50%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
                 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 20px;
 }
 .info_box.activeInfo,
 .quiz_box.activeQuiz,
@@ -61,6 +60,9 @@ body{
     z-index: 5;
     pointer-events: auto;
     transform: translate(-50%, -50%) scale(1);
+}
+.quiz_box.activeQuiz{
+    width: 50vw;
 }
 
 .start_btn button{
@@ -76,13 +78,20 @@ body{
 }
 
 .info_box{
-    width: 70%;
+    position: relative;
+    width:70vw;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s ease;
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .info_box .info-title{
@@ -381,7 +390,6 @@ footer button.show{
 
 .result_box .buttons button{
     margin: 0 10px;
-    height: 45px;
     padding: 0 20px;
     font-size: 18px;
     font-weight: 500;
@@ -414,15 +422,13 @@ footer button.show{
 
 /* MEDIA QUERIES */
 @media only screen and (max-width: 550px) {
-    .info_box,.quiz_box,.result_box {
-        width: 90%;
+    .info_box,.quiz_box.activeQuiz,.result_box {
+        width: 90vw;
+        margin-bottom: 20vw;
     }
 }
 @media only screen and (max-width: 390px) {
     .main-page{
         margin-left: 10px;
     }
-    /* .info_box,.quiz_box {
-        margin-left:10px;
-    } */
 }
