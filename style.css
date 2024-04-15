@@ -23,13 +23,13 @@ body{
     font-weight: 600;
     color: #1c3a7b;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 15%;
 }
 
-/* ::selection{
+::selection{
     color: #fff;
-    background: #1c3a7b;
-} */
+    background: #2f959a6e;
+}
 
 .start_btn,
 .info_box,
