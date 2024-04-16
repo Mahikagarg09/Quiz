@@ -27,12 +27,12 @@ body{
     font-weight: 600;
     color: #1c3a7b;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 ::selection{
     color: #fff;
-    background: #2f959a6e;
+    background: #0b4042;
 }
 
 .start_btn,
@@ -68,7 +68,7 @@ body{
     transform: translate(-50%, -50%) scale(1);
 }
 .quiz_box.activeQuiz{
-    width: 50vw;
+    width: 70vw;
 }
 
 .start_btn button{
