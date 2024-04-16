@@ -436,6 +436,12 @@ footer button.show{
     .result_box.activeResult{
         margin-top: 80px;
     }
+    section .que_text{
+        font-size: 18px;
+    }
+    section .option_list .option{
+        font-size: 13px;
+    }
 }
 @media only screen and (max-width: 390px) {
     .main-page{
