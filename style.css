@@ -45,6 +45,12 @@ body{
                 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.quiz {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .quiz_box{
     position: relative;
     top: 320px;
